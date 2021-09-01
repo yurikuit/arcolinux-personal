@@ -42,10 +42,6 @@ echo "Installing personal settings of variety"
 
 cp $installed_dir/settings/variety/variety.conf ~/.config/variety/
 
-echo "Installing screenkey for teaching"
-
-cp $installed_dir/settings/screenkey/screenkey.json ~/.config/
-
 #echo "copy/paste wallpapers to variety"
 # DIR=$HOME"/.config/variety/Favorites/"
 # echo $DIR
@@ -56,7 +52,7 @@ cp $installed_dir/settings/screenkey/screenkey.json ~/.config/
 # fi
 
 echo "Adding personal looks to /personal"
-sudo cp -rf ../Personal-Settings/personal-iso/* /personal
+sudo cp -rf ../Personal-iso/personal-iso/* /personal
 
 echo "################################################################"
 echo "#########            folders created            ################"
